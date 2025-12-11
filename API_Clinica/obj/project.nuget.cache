@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nOsi5uGqeTA=",
+  "dgSpecHash": "3sS6hq05vA0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\OneDrive\\Escritorio\\Ucatolica\\Analisis y DIseño de archivos\\API_Clinica\\API_Clinica.csproj",
+  "projectFilePath": "C:\\Users\\user\\OneDrive\\Escritorio\\Ucatolica\\Analisis y DIseño de archivos\\ProyectoFinal_AaronAlfaroR\\API_Clinica\\API_Clinica\\API_Clinica.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
@@ -71,9 +71,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "El paquete \"Microsoft.AspNet.WebApi.Core 5.3.0\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \"net9.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
-      "projectPath": "C:\\Users\\user\\OneDrive\\Escritorio\\Ucatolica\\Analisis y DIseño de archivos\\API_Clinica\\API_Clinica.csproj",
+      "projectPath": "C:\\Users\\user\\OneDrive\\Escritorio\\Ucatolica\\Analisis y DIseño de archivos\\ProyectoFinal_AaronAlfaroR\\API_Clinica\\API_Clinica\\API_Clinica.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\user\\OneDrive\\Escritorio\\Ucatolica\\Analisis y DIseño de archivos\\API_Clinica\\API_Clinica.csproj",
+      "filePath": "C:\\Users\\user\\OneDrive\\Escritorio\\Ucatolica\\Analisis y DIseño de archivos\\ProyectoFinal_AaronAlfaroR\\API_Clinica\\API_Clinica\\API_Clinica.csproj",
       "libraryId": "Microsoft.AspNet.WebApi.Core",
       "targetGraphs": [
         "net9.0"

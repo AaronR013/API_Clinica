@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("API_Clinica")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+18ff427f4d1d873f42bd8ea2d739b36eeca3db7c")]
 [assembly: System.Reflection.AssemblyProductAttribute("API_Clinica")]
 [assembly: System.Reflection.AssemblyTitleAttribute("API_Clinica")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
