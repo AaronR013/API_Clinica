@@ -9,10 +9,10 @@
         public string Telefono { get; set; }
         public string Correo { get; set; }
         public string Horario_consulta { get; set; }
-        public int Estado { get; set; }
+        public string Estado { get; set; }
 
         public Medico(string id, string nombre, string cedula_profesional, string especialidad, 
-            string telefono, string correo, string horario_consulta)
+            string telefono, string correo, string horario_consulta, string estado)
         {
             Id = id;
             Nombre = nombre;
@@ -21,7 +21,7 @@
             Telefono = telefono;
             Correo = correo;
             Horario_consulta = horario_consulta;
-            Estado = 1; //Activo por default
+            Estado = estado;
         }
     }
 }

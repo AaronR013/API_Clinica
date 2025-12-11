@@ -10,11 +10,11 @@
         public string Direccion { get; set; }
         public string Telefono { get; set; }
         public string Correo { get; set; }
-        public int Estado_clinico { get; set; }
+        public string Estado_clinico { get; set; }
         public string Fecha_registro { get; set; }
 
         public Paciente(string id, string nombre, string cedula, string fecha_nacimiento, 
-            string genero, string direccion, string telefono, string correo, string fecha_registro)
+            string genero, string direccion, string telefono, string correo, string estado_clinico, string fecha_registro)
         {
             Id = id;
             Nombre = nombre;
@@ -24,7 +24,7 @@
             Direccion = direccion;
             Telefono = telefono;
             Correo = correo;
-            Estado_clinico = 1; //Activo por default
+            Estado_clinico = estado_clinico;
             Fecha_registro = fecha_registro;
         }
     }
