@@ -49,7 +49,7 @@ namespace API_Clinica.Data
         {
             MySqlConnection conexion = conexionBD.AbrirConexion();
 
-            MySqlCommand comando = new MySqlCommand("apibclinica.insertCita", conexion);
+            MySqlCommand comando = new MySqlCommand("apiclinica.insertCita", conexion);
             comando.CommandType = CommandType.StoredProcedure;
 
             comando.Parameters.AddWithValue("Id", cita.Id);
@@ -76,7 +76,7 @@ namespace API_Clinica.Data
 
             lector.Read();
 
-            CitaMedica cita = new CitaMedica(lector["Id"].ToString(), lector["Id_paciebte"].ToString(), 
+            CitaMedica cita = new CitaMedica(lector["Id"].ToString(), lector["Id_paciente"].ToString(), 
                 lector["Id_medico"].ToString(), lector["Fecha"].ToString(), lector["Hora"].ToString(), 
                 lector["Especialidad"].ToString(), lector["Estado"].ToString());
 

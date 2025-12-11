@@ -51,7 +51,7 @@ namespace API_Clinica.Data
         {
             MySqlConnection conexion = conexionBD.AbrirConexion();
 
-            MySqlCommand comando = new MySqlCommand("apibclinica.insertMedico", conexion);
+            MySqlCommand comando = new MySqlCommand("apiclinica.insertMedico", conexion);
             comando.CommandType = CommandType.StoredProcedure;
 
             comando.Parameters.AddWithValue("Id", medico.Id);

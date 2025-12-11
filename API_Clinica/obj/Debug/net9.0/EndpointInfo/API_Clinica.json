@@ -5,10 +5,10 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/Bibliotecario": {
+    "/api/Cita": {
       "get": {
         "tags": [
-          "Bibliotecario"
+          "Cita"
         ],
         "responses": {
           "200": {
@@ -18,7 +18,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Bibliotecario"
+                    "$ref": "#/components/schemas/CitaMedica"
                   }
                 }
               },
@@ -26,7 +26,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Bibliotecario"
+                    "$ref": "#/components/schemas/CitaMedica"
                   }
                 }
               },
@@ -34,7 +34,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Bibliotecario"
+                    "$ref": "#/components/schemas/CitaMedica"
                   }
                 }
               }
@@ -44,23 +44,23 @@
       },
       "post": {
         "tags": [
-          "Bibliotecario"
+          "Cita"
         ],
         "requestBody": {
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Bibliotecario"
+                "$ref": "#/components/schemas/CitaMedica"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Bibliotecario"
+                "$ref": "#/components/schemas/CitaMedica"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Bibliotecario"
+                "$ref": "#/components/schemas/CitaMedica"
               }
             }
           }
@@ -72,10 +72,10 @@
         }
       }
     },
-    "/api/Bibliotecario/{id}": {
+    "/api/Cita/{id}": {
       "get": {
         "tags": [
-          "Bibliotecario"
+          "Cita"
         ],
         "parameters": [
           {
@@ -93,17 +93,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Bibliotecario"
+                  "$ref": "#/components/schemas/CitaMedica"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Bibliotecario"
+                  "$ref": "#/components/schemas/CitaMedica"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Bibliotecario"
+                  "$ref": "#/components/schemas/CitaMedica"
                 }
               }
             }
@@ -112,7 +112,7 @@
       },
       "put": {
         "tags": [
-          "Bibliotecario"
+          "Cita"
         ],
         "parameters": [
           {
@@ -128,17 +128,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Bibliotecario"
+                "$ref": "#/components/schemas/CitaMedica"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Bibliotecario"
+                "$ref": "#/components/schemas/CitaMedica"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Bibliotecario"
+                "$ref": "#/components/schemas/CitaMedica"
               }
             }
           }
@@ -151,7 +151,7 @@
       },
       "delete": {
         "tags": [
-          "Bibliotecario"
+          "Cita"
         ],
         "parameters": [
           {
@@ -170,10 +170,10 @@
         }
       }
     },
-    "/api/Libro": {
+    "/api/Historial": {
       "get": {
         "tags": [
-          "Libro"
+          "Historial"
         ],
         "responses": {
           "200": {
@@ -183,7 +183,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Libro"
+                    "$ref": "#/components/schemas/HistorialMedico"
                   }
                 }
               },
@@ -191,7 +191,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Libro"
+                    "$ref": "#/components/schemas/HistorialMedico"
                   }
                 }
               },
@@ -199,7 +199,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Libro"
+                    "$ref": "#/components/schemas/HistorialMedico"
                   }
                 }
               }
@@ -209,23 +209,23 @@
       },
       "post": {
         "tags": [
-          "Libro"
+          "Historial"
         ],
         "requestBody": {
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Libro"
+                "$ref": "#/components/schemas/HistorialMedico"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Libro"
+                "$ref": "#/components/schemas/HistorialMedico"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Libro"
+                "$ref": "#/components/schemas/HistorialMedico"
               }
             }
           }
@@ -237,10 +237,10 @@
         }
       }
     },
-    "/api/Libro/{id}": {
+    "/api/Historial/{id}": {
       "get": {
         "tags": [
-          "Libro"
+          "Historial"
         ],
         "parameters": [
           {
@@ -258,17 +258,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Libro"
+                  "$ref": "#/components/schemas/HistorialMedico"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Libro"
+                  "$ref": "#/components/schemas/HistorialMedico"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Libro"
+                  "$ref": "#/components/schemas/HistorialMedico"
                 }
               }
             }
@@ -277,7 +277,7 @@
       },
       "put": {
         "tags": [
-          "Libro"
+          "Historial"
         ],
         "parameters": [
           {
@@ -293,17 +293,162 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Libro"
+                "$ref": "#/components/schemas/HistorialMedico"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Libro"
+                "$ref": "#/components/schemas/HistorialMedico"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Libro"
+                "$ref": "#/components/schemas/HistorialMedico"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Medico": {
+      "get": {
+        "tags": [
+          "Medico"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Medico"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Medico"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Medico"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Medico"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Medico"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Medico"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Medico"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Medico/{id}": {
+      "get": {
+        "tags": [
+          "Medico"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Medico"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Medico"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Medico"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Medico"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Medico"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Medico"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Medico"
               }
             }
           }
@@ -316,7 +461,174 @@
       },
       "delete": {
         "tags": [
-          "Libro"
+          "Medico"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Paciente": {
+      "get": {
+        "tags": [
+          "Paciente"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Paciente"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Paciente"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Paciente"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Paciente"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Paciente"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Paciente"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Paciente"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Paciente/{cedula}": {
+      "get": {
+        "tags": [
+          "Paciente"
+        ],
+        "parameters": [
+          {
+            "name": "cedula",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Paciente"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Paciente"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Paciente"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Paciente/{id}": {
+      "put": {
+        "tags": [
+          "Paciente"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Paciente"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Paciente"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Paciente"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Paciente"
         ],
         "parameters": [
           {
@@ -338,32 +650,148 @@
   },
   "components": {
     "schemas": {
-      "Bibliotecario": {
+      "CitaMedica": {
         "type": "object",
         "properties": {
-          "id_empleado": {
+          "id": {
             "type": "string",
             "nullable": true
           },
-          "años_experiencia": {
-            "type": "integer",
-            "format": "int32"
+          "id_paciente": {
+            "type": "string",
+            "nullable": true
+          },
+          "id_medico": {
+            "type": "string",
+            "nullable": true
+          },
+          "fecha": {
+            "type": "string",
+            "nullable": true
+          },
+          "hora": {
+            "type": "string",
+            "nullable": true
+          },
+          "especialidad": {
+            "type": "string",
+            "nullable": true
+          },
+          "estado": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
       },
-      "Libro": {
+      "HistorialMedico": {
         "type": "object",
         "properties": {
-          "id_libro": {
+          "id": {
             "type": "string",
             "nullable": true
           },
-          "titulo": {
+          "id_paciente": {
             "type": "string",
             "nullable": true
           },
-          "autor": {
+          "id_medico": {
+            "type": "string",
+            "nullable": true
+          },
+          "diagnostico": {
+            "type": "string",
+            "nullable": true
+          },
+          "tratamiento": {
+            "type": "string",
+            "nullable": true
+          },
+          "fecha_consulta": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Medico": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": true
+          },
+          "nombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "cedula_profesional": {
+            "type": "string",
+            "nullable": true
+          },
+          "especialidad": {
+            "type": "string",
+            "nullable": true
+          },
+          "telefono": {
+            "type": "string",
+            "nullable": true
+          },
+          "correo": {
+            "type": "string",
+            "nullable": true
+          },
+          "horario_consulta": {
+            "type": "string",
+            "nullable": true
+          },
+          "estado": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Paciente": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": true
+          },
+          "nombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "cedula": {
+            "type": "string",
+            "nullable": true
+          },
+          "fecha_nacimiento": {
+            "type": "string",
+            "nullable": true
+          },
+          "genero": {
+            "type": "string",
+            "nullable": true
+          },
+          "direccion": {
+            "type": "string",
+            "nullable": true
+          },
+          "telefono": {
+            "type": "string",
+            "nullable": true
+          },
+          "correo": {
+            "type": "string",
+            "nullable": true
+          },
+          "estado_clinico": {
+            "type": "string",
+            "nullable": true
+          },
+          "fecha_registro": {
             "type": "string",
             "nullable": true
           }

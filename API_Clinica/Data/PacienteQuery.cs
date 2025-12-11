@@ -53,7 +53,7 @@ namespace API_Clinica.Data
         {
             MySqlConnection conexion = conexionBD.AbrirConexion();
 
-            MySqlCommand comando = new MySqlCommand("apibclinica.insertPaciente", conexion);
+            MySqlCommand comando = new MySqlCommand("apiclinica.insertPaciente", conexion);
             comando.CommandType = CommandType.StoredProcedure;
 
             comando.Parameters.AddWithValue("Id", paciente.Id);
@@ -87,7 +87,6 @@ namespace API_Clinica.Data
                 lector["Fecha_nacimiento"].ToString(), lector["Genero"].ToString(), lector["Direccion"].ToString(), 
                 lector["Telefono"].ToString(), lector["Correo"].ToString(), lector["Estado_clinico"].ToString(), 
                 lector["Fecha_registro"].ToString());
-
 
             lector.Close();
             conexionBD.CerrarConexion(conexion);

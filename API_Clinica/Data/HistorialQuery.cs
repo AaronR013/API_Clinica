@@ -48,11 +48,11 @@ namespace API_Clinica.Data
         {
             MySqlConnection conexion = conexionBD.AbrirConexion();
 
-            MySqlCommand comando = new MySqlCommand("apibclinica.insertHistorial", conexion);
+            MySqlCommand comando = new MySqlCommand("apiclinica.insertHistorial", conexion);
             comando.CommandType = CommandType.StoredProcedure;
 
             comando.Parameters.AddWithValue("Id", historial.Id);
-            comando.Parameters.AddWithValue("Id_paciebte", historial.Id_paciente);
+            comando.Parameters.AddWithValue("Id_paciente", historial.Id_paciente);
             comando.Parameters.AddWithValue("Id_medico", historial.Id_medico);
             comando.Parameters.AddWithValue("Diagnostico", historial.Diagnostico);
             comando.Parameters.AddWithValue("Tratamiento", historial.Tratamiento);
@@ -74,7 +74,7 @@ namespace API_Clinica.Data
 
             lector.Read();
 
-            HistorialMedico historial = new HistorialMedico(lector["Id"].ToString(), lector["Id_paciebte"].ToString(),
+            HistorialMedico historial = new HistorialMedico(lector["Id"].ToString(), lector["Id_paciente"].ToString(),
                 lector["Id_medico"].ToString(), lector["Diagnostico"].ToString(), lector["Tratamiento"].ToString(),
                 lector["Fecha_consulta"].ToString());
 
@@ -92,7 +92,7 @@ namespace API_Clinica.Data
             comando.CommandType = CommandType.StoredProcedure;
 
             comando.Parameters.AddWithValue("p_id", id);
-            comando.Parameters.AddWithValue("Id_paciebte", historial.Id_paciente);
+            comando.Parameters.AddWithValue("Id_paciente", historial.Id_paciente);
             comando.Parameters.AddWithValue("Id_medico", historial.Id_medico);
             comando.Parameters.AddWithValue("Diagnostico", historial.Diagnostico);
             comando.Parameters.AddWithValue("Tratamiento", historial.Tratamiento);
