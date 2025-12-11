@@ -66,7 +66,7 @@ namespace API_Clinica.Data
         {
             MySqlConnection conexion = conexionBD.AbrirConexion();
 
-            MySqlCommand comando = new MySqlCommand("apiclinica.consultarHsitorialPorId", conexion);
+            MySqlCommand comando = new MySqlCommand("apiclinica.consultarHistorialPorId", conexion);
             comando.CommandType = CommandType.StoredProcedure;
             comando.Parameters.AddWithValue("p_id", id);
 
@@ -88,7 +88,7 @@ namespace API_Clinica.Data
         {
             MySqlConnection conexion = conexionBD.AbrirConexion();
 
-            MySqlCommand comando = new MySqlCommand("apiclinica.actualizarCitaPorId", conexion);
+            MySqlCommand comando = new MySqlCommand("apiclinica.actualizarHistorialPorId", conexion);
             comando.CommandType = CommandType.StoredProcedure;
 
             comando.Parameters.AddWithValue("p_id", id);

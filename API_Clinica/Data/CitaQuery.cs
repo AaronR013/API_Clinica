@@ -53,7 +53,7 @@ namespace API_Clinica.Data
             comando.CommandType = CommandType.StoredProcedure;
 
             comando.Parameters.AddWithValue("Id", cita.Id);
-            comando.Parameters.AddWithValue("Id_paciebte", cita.Id_paciente);
+            comando.Parameters.AddWithValue("Id_paciente", cita.Id_paciente);
             comando.Parameters.AddWithValue("Id_medico", cita.Id_medico);
             comando.Parameters.AddWithValue("Fecha", cita.Fecha);
             comando.Parameters.AddWithValue("Hora", cita.Hora);
@@ -94,7 +94,7 @@ namespace API_Clinica.Data
             comando.CommandType = CommandType.StoredProcedure;
 
             comando.Parameters.AddWithValue("p_id", id);
-            comando.Parameters.AddWithValue("Id_paciebte", cita.Id_paciente);
+            comando.Parameters.AddWithValue("Id_paciente", cita.Id_paciente);
             comando.Parameters.AddWithValue("Id_medico", cita.Id_medico);
             comando.Parameters.AddWithValue("Fecha", cita.Fecha);
             comando.Parameters.AddWithValue("Hora", cita.Hora);

@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\user\\OneDrive\\Escritorio\\Ucatolica\\Analisis y DIse\u00F1o de archivos\\ProyectoFinal_AaronAlfaroR\\API_Clinica\\API_Clinica\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{626EC476-8E7B-49E9-A3D9-00381CFB3B23}|API_Clinica.csproj|c:\\users\\user\\onedrive\\escritorio\\ucatolica\\analisis y dise\u00F1o de archivos\\proyectofinal_aaronalfaror\\api_clinica\\api_clinica\\data\\historialquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626EC476-8E7B-49E9-A3D9-00381CFB3B23}|API_Clinica.csproj|solutionrelative:data\\historialquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HistorialQuery.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Escritorio\\Ucatolica\\Analisis y DIse\u00F1o de archivos\\ProyectoFinal_AaronAlfaroR\\API_Clinica\\API_Clinica\\Data\\HistorialQuery.cs",
+              "RelativeDocumentMoniker": "Data\\HistorialQuery.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Escritorio\\Ucatolica\\Analisis y DIse\u00F1o de archivos\\ProyectoFinal_AaronAlfaroR\\API_Clinica\\API_Clinica\\Data\\HistorialQuery.cs",
+              "RelativeToolTip": "Data\\HistorialQuery.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T15:11:51.616Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
